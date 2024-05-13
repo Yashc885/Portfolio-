@@ -1,9 +1,10 @@
 "use client";
 import React from 'react'
+import About from "@/component/About/About";
 
 const page = () => {
   return (
-    <div>page</div>
+    <About />
   )
 }
 

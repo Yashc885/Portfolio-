@@ -1,8 +1,8 @@
 "use client";
 import Image from "next/image";
-
-export default function Home() {
+import Home from "@/component/Home/Home";
+export default function page() {
   return (
-<div className="text-bold text-2xl text-teal-500">HELLO WORLD </div>
+      <Home />
   );
 }
