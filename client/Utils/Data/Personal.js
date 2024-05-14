@@ -7,10 +7,10 @@ export const personal = {
     phone: '+918850534260',
     address: 'D-904 Sapphire, Poonam Gardan , Mira road , Maharastra-401107 ',
     github: 'https://github.com/Yashc885',
-    facebook: 'https://www.facebook.com/abusaid.riyaz/',
+    facebook: '',
     linkedIn: 'https://www.linkedin.com/in/yash-c88/',
     twitter: 'https://twitter.com/said7388',
-    stackOverflow: 'https://stackoverflow.com/users/16840768/abu-said',
+    stackOverflow: '',
     leetcode: "https://leetcode.com/u/itz_yash88/",
     devUsername: "yash88",
     resume: "https://drive.google.com/file/d/1yGORWVLsVe7VvVPfL0xWsF93QXOddE0a/view?usp=drive_link"
