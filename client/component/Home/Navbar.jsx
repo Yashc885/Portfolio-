@@ -1,34 +1,67 @@
-"use client";
-import React from 'react';
 
-const Navbar = () => {
+"use client";
+import React, { useState, useEffect } from 'react';
+import Link from "next/link";
+function Navbar() {
   return (
-    <nav className="bg-gradient-to-r from-gray-600 via-gray-700 to-gray-800 bg-opacity-90 fixed top-0 w-full z-50">
-      <div className="flex justify-between items-center py-4 px-6">
-        <div className="flex items-center">
-          <ul className="flex space-x-32">
-            <li><a href="/" className="text-white hover:underline">Home</a></li>
-            <li><a href="/about" className="text-white hover:underline">About</a></li>
-            <li><a href="/blogs" className="text-white hover:underline">Blogs</a></li>
-          </ul>
+    <nav className="bg-transparent pl-10  pr-10 ">
+      <div className="flex items-center justify-between py-5">
+        <div className="flex flex-shrink-0 items-center">
+          <Link
+            href="/"
+            className=" text-[#16f2b3] text-3xl font-bold">
+            Yash 
+          </Link>
         </div>
-        <div>
-          <a href="#" className="text-white hover:underline">
-            <img src="https://marketplace.canva.com/EAFYecj_1Sc/1/0/1600w/canva-cream-and-black-simple-elegant-catering-food-logo-2LPev1tJbrg.jpg"
-             alt="Logo" 
-             className="w-12 h-12 rounded-full shadow-xl" />
-          </a>
-        </div>
-        <div className="flex items-center">
-          <ul className="flex space-x-32">
-            <li><a href="/techstack" className="text-white hover:underline">Tech-Stacks</a></li>
-            <li><a href="/projects" className="text-white hover:underline">Projects</a></li>
-            <li><a href="/contact" className="text-white hover:underline">Contact</a></li>
-          </ul>
-        </div>
+
+        <ul className="mt-4 flex h-screen max-h-0 w-full flex-col items-start text-sm opacity-0 md:mt-0 md:h-auto md:max-h-screen md:w-auto md:flex-row md:space-x-1 md:border-0 md:opacity-100" id="navbar-default">
+          <li>
+            <Link className="block px-4 py-2 no-underline outline-none hover:no-underline" href="/about">
+              <div className="text-sm text-white transition-colors duration-300 pr-10  hover:text-pink-600">
+                ABOUT
+              </div>
+            </Link>
+          </li>
+          <li>
+            <Link className="block px-4 py-2 no-underline outline-none hover:no-underline" href="/experience">
+              <div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">
+                EXPERIENCE
+              </div>
+            </Link>
+          </li>
+          <li>
+            <Link className="block px-4 py-2 no-underline outline-none hover:no-underline" href="/skills">
+              <div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">
+                SKILLS
+              </div>
+            </Link>
+          </li>
+          <li>
+            <Link className="block px-4 py-2 no-underline outline-none hover:no-underline" href="/education">
+              <div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">
+                 EDUCATION
+              </div>
+            </Link>
+          </li>
+          <li>
+            <Link className="block px-4 py-2 no-underline outline-none hover:no-underline" href="/blog">
+              <div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">
+                BLOGS
+              </div>
+             </Link>
+          </li>
+          <li>
+            <Link className="block px-4 py-2 no-underline outline-none hover:no-underline" href="/projects">
+              <div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">
+                PROJECTS
+              </div>
+            </Link>
+          </li>
+        </ul>
       </div>
     </nav>
   );
 };
 
 export default Navbar;
+
