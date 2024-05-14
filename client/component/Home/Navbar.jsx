@@ -23,9 +23,9 @@ function Navbar() {
             </Link>
           </li>
           <li>
-            <Link className="block px-4 py-2 no-underline outline-none hover:no-underline" href="/experience">
+            <Link className="block px-4 py-2 no-underline outline-none hover:no-underline" href="/projects">
               <div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">
-                EXPERIENCE
+                PROJECTS
               </div>
             </Link>
           </li>
@@ -51,9 +51,9 @@ function Navbar() {
              </Link>
           </li>
           <li>
-            <Link className="block px-4 py-2 no-underline outline-none hover:no-underline" href="/projects">
+            <Link className="block px-4 py-2 no-underline outline-none hover:no-underline" href="/experience">
               <div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">
-                PROJECTS
+                EXPERIENCE
               </div>
             </Link>
           </li>

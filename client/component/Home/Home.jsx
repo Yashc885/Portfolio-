@@ -8,12 +8,13 @@ import { FaFacebook, FaTwitterSquare } from "react-icons/fa";
 import { MdDownload } from "react-icons/md";
 import { RiContactsFill } from "react-icons/ri";
 import { SiLeetcode } from "react-icons/si";
+import Main from "@/Utils/Assets/card.png";
 
 function Home() {
   return (
     <section className="pl-10 pr-10 relative flex flex-col items-center justify-between py-4 lg:py-12">
       <Image
-        src="/hero.svg"
+        src={Main}
         alt="Hero"
         width={1572}
         height={795}
