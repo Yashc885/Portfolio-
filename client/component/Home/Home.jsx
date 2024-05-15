@@ -79,9 +79,9 @@ function Home() {
           </div>
           <div className="px-4 lg:px-8 py-5">
             <div className="flex flex-row space-x-2">
+            <div className="h-3 w-3 rounded-full bg-green-200"></div>
+            <div className="h-3 w-3 rounded-full bg-orange-400"></div>
               <div className="h-3 w-3 rounded-full bg-red-400"></div>
-              <div className="h-3 w-3 rounded-full bg-orange-400"></div>
-              <div className="h-3 w-3 rounded-full bg-green-200"></div>
             </div>
           </div>
           <div className="overflow-hidden border-t-[2px] border-indigo-900 px-4 lg:px-8 py-4 lg:py-8">

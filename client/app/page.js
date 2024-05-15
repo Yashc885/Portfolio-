@@ -7,13 +7,13 @@ import Skills from "@/component/Skills/Skills";
 import Education from "@/component/Education/Education";
 export default function page() {
   return (
-    <>
+    <div className="">
       <Navbar />
       <Home />
-      <About />
-      <Projects />
-      <Skills />
-      <Education />
-    </>
+      <About id="about" />
+      <Projects id="projects"/>
+      <Skills id="skills" />
+      <Education id="educations" />
+    </div>
   );
 }
