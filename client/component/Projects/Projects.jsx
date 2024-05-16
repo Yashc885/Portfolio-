@@ -4,6 +4,14 @@ import Section from '@/Utils/Assets/section.svg';
 import projectData from '@/component/Projects/Content';
 import { GoArrowRight } from "react-icons/go";
 
+
+const truncateText = (text, maxLength) => {
+  if (text.length <= maxLength) {
+    return text;
+  }
+  return text.substring(0, maxLength) + '...';
+};
+
 const Projects = () => {
   return (
     <div>
@@ -48,7 +56,7 @@ const Projects = () => {
 
                   <div className="mb-8">
                     <h2 className="text-lg lg:text-xl  sm:text-md text-white font-semibold">Description:</h2>
-                    <p className="text-gray-400  text-lg  sm:text-md ">{project.description}</p>
+                    <p className="text-gray-400  text-lg  sm:text-md "> {truncateText(project.description, 400)} </p>
                   </div>
                   <div className="mb-4">
                   <div className="relative inline-flex group text-center">

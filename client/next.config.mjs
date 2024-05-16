@@ -1,6 +1,6 @@
 const nextConfig = {
   images: {
-    domains: ['marketplace.canva.com', 'cdn.pixabay.com'],
+    domains: ['marketplace.canva.com', 'cdn.pixabay.com' , 'picsum.photos'],
   },
 };
 
