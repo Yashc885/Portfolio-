@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useEffect } from 'react';
 import Link from "next/link";
-import { personal } from "@/utils/Data/Personal";
+import { personal } from "@/utils/Data/personal";
 import Image from "next/image";
 import Profile from "@/Utils/Assets/Profile.png";
 

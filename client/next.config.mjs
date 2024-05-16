@@ -1,6 +1,12 @@
 const nextConfig = {
   images: {
-    domains: ['marketplace.canva.com', 'cdn.pixabay.com' , 'picsum.photos'],
+    // Define remotePatterns instead of domains
+    // Each pattern object should have a "hostname" key with the domain value
+    remotePatterns: [
+      { hostname: 'marketplace.canva.com' },
+      { hostname: 'cdn.pixabay.com' },
+      { hostname: 'picsum.photos' }
+    ],
   },
 };
 

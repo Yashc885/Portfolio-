@@ -1,3 +1,4 @@
+"use client";
 import React from 'react';
 import { FaInstagram, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { personal } from "@/utils/Data/personal";
