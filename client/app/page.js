@@ -5,7 +5,8 @@ import About from "@/component/About/About";
 import Projects from "@/component/Projects/Projects";
 import Skills from "@/component/Skills/Skills";
 import Education from "@/component/Education/Education";
-import Blogs from "@/component/Blogs/Blogs"
+import Blogs from "@/component/Blogs/Blogs";
+import Contact from "@/component/Contact/Contact";
 export default function page() {
   return (
     <div className="">
@@ -16,6 +17,7 @@ export default function page() {
       <Skills id="skills" />
       <Education id="educations" />
       <Blogs id="blogs" />
+      <Contact id="contact" />
     </div>
   );
 }
