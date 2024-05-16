@@ -7,6 +7,7 @@ import Skills from "@/component/Skills/Skills";
 import Education from "@/component/Education/Education";
 import Blogs from "@/component/Blogs/Blogs";
 import Contact from "@/component/Contact/Contact";
+import Footer from "@/component/Footer/Footer";
 export default function page() {
   return (
     <div className="">
@@ -18,6 +19,7 @@ export default function page() {
       <Education id="educations" />
       <Blogs id="blogs" />
       <Contact id="contact" />
+      <Footer />
     </div>
   );
 }

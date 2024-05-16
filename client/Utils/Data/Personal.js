@@ -13,5 +13,6 @@ export const personal = {
     stackOverflow: '',
     leetcode: "https://leetcode.com/u/itz_yash88/",
     devUsername: "yash88",
-    resume: "https://drive.google.com/file/d/1yGORWVLsVe7VvVPfL0xWsF93QXOddE0a/view?usp=drive_link"
+    resume: "https://drive.google.com/file/d/1yGORWVLsVe7VvVPfL0xWsF93QXOddE0a/view?usp=drive_link",
+    instagram: "https://www.instagram.com/yashchoudhary._88/"
   }
