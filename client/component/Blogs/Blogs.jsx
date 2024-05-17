@@ -55,10 +55,10 @@ const Blogs = () => {
           </div>
         </div>
         <div className="p-4">
-        <p className='mt-2 text-lg sm:text-md text-[#16f2b3]'>
+        <p className='mt-2 text-lg sm:text-sm  text-[#16f2b3]'>
               {`${blog.hastag} `}
             </p>
-          <h3 className="my-2 mt-4 lg:my-3 cursor-pointer text-3xl  uppercase text-white sm:text-3xl font-semibold  hover:text-violet-500">{blog.title}</h3>
+          <h3 className="my-2 mt-4 lg:my-3 cursor-pointer text-3xl  uppercase text-white sm:text-xl font-semibold  hover:text-violet-500">{blog.title}</h3>
           <div className="">
             <p className='mt-4 text-lg sm:text-md text-[#16f2b3]'>
               {`${blog.min} Min Read`}

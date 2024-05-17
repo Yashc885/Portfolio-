@@ -55,8 +55,8 @@ const Projects = () => {
                   </div>
 
                   <div className="mb-8">
-                    <h2 className="text-lg lg:text-xl  sm:text-md text-white font-semibold">Description:</h2>
-                    <p className="text-gray-400  text-lg  sm:text-md "> {truncateText(project.description, 400)} </p>
+                    <h2 className="text-md  md:text-lg  lg:text-xl   text-white font-semibold">Description:</h2>
+                    <p className="text-gray-400  text-lg  sm:text-md "> {truncateText(project.description, 250)} </p>
                   </div>
                   <div className="mb-4">
                   <div className="relative inline-flex group text-center">
