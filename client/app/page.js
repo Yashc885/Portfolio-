@@ -8,6 +8,7 @@ import Education from "@/component/Education/Education";
 import Blogs from "@/component/Blogs/Blogs";
 import Contact from "@/component/Contact/Contact";
 import Footer from "@/component/Footer/Footer";
+import Experience from "@/component/Experience/Experience";
 export default function page() {
   return (
     <div className="">
@@ -17,6 +18,7 @@ export default function page() {
       <Projects id="projects"/>
       <Skills id="skills" />
       <Education id="educations" />
+      <Experience id="experience" />
       <Blogs id="blogs" />
       <Contact id="contact" />
       <Footer />

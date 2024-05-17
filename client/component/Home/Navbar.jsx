@@ -99,20 +99,20 @@ function Navbar() {
 <li>
 <Link
   className="block px-4 py-2 no-underline outline-none hover:no-underline"
-  href="/#blogs"
+  href="/#experience"
 >
   <div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">
-    BLOGS
+    EXPERIENCE
   </div>
 </Link>
 </li>
 <li>
 <Link
   className="block px-4 py-2 no-underline outline-none hover:no-underline"
-  href="/experience"
+  href="/#blogs"
 >
   <div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">
-    EXPERIENCE
+    BLOGS
   </div>
 </Link>
 </li>

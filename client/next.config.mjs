@@ -5,7 +5,8 @@ const nextConfig = {
     remotePatterns: [
       { hostname: 'marketplace.canva.com' },
       { hostname: 'cdn.pixabay.com' },
-      { hostname: 'picsum.photos' }
+      { hostname: 'picsum.photos' },
+      { hostname: 'images.unsplash.com' }
     ],
   },
 };
