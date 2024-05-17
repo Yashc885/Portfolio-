@@ -81,9 +81,9 @@ const Projects = () => {
         <div className="text-center">
             <div className="items-center justify-center">
             <a href="projects"
-                class="animate-bounce focus:animate-none hover:animate-none inline-flex py-4 text-lg  font-medium bg-indigo-900 mt-3 px-4 py-2 rounded-lg tracking-wide text-white">
+                className= "animate-bounce focus:animate-none hover:animate-none inline-flex py-4 text-lg  font-medium bg-indigo-900 mt-3 px-4 py-2 rounded-lg tracking-wide text-white">
                 <div className="flex">
-                  <span class="ml-2">View All </span>
+                  <span className= "ml-2">View All </span>
                   <div className="text-center text-lg ">
                   <GoArrowRight />
                 </div>
