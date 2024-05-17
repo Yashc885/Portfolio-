@@ -9,9 +9,49 @@ import Blogs from "@/component/Blogs/Blogs";
 import Contact from "@/component/Contact/Contact";
 import Footer from "@/component/Footer/Footer";
 import Experience from "@/component/Experience/Experience";
+import PreLoader from "@/component/PreLoader/PreLoader";
+// export default function page() {
+//   return (
+//     <div className="">
+//     <PreLoader />
+//       <Navbar />
+//       <Home />
+//       <About id="about" />
+//       <Projects id="projects"/>
+//       <Skills id="skills" />
+//       <Education id="educations" />
+//       <Experience id="experience" />
+//       <Blogs id="blogs" />
+//       <Contact id="contact" />
+//       <Footer />
+//     </div>
+//   );
+// }
+
+// // Layout.js
+import React, { useState, useEffect } from 'react';
+import Index from '@/component/PreLoader/Index'; 
+
 export default function page() {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    // Simulate a delay for demonstration purposes
+    const timeout = setTimeout(() => {
+      setLoading(false);
+    }, 2000);
+
+    // Clear timeout on component unmount
+    return () => clearTimeout(timeout);
+  }, []);
+
   return (
-    <div className="">
+    <>
+      {loading ? (
+        <Index />
+      ) : (
+        <div>
+        <div className="">
       <Navbar />
       <Home />
       <About id="about" />
@@ -23,5 +63,11 @@ export default function page() {
       <Contact id="contact" />
       <Footer />
     </div>
+        </div>
+      )}
+    </>
   );
 }
+
+
+
