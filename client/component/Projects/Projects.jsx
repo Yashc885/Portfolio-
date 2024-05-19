@@ -42,8 +42,8 @@ const Projects = () => {
                   src={project.image}
                   alt={project.title}
                   className="w-full h-auto"
-                  width={100}
-                  height={100}
+                  // width={100}
+                  // height={100}
                 />
                 <div className="p-4">
                   <div className="text-center mb-4">

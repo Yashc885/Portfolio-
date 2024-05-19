@@ -32,7 +32,7 @@ function Home() {
             .
           </h1>
 
-          <div className="my-12 flex items-center gap-5">
+          <div className="my-12 flex items-center gap-5">~
             <Link
               href={personal.github}
               target='_blank'
