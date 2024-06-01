@@ -1,76 +1,49 @@
+import  Nasa  from "@/Utils/Assets/Projects/Nasa.jpeg";
+import  ChatApp  from "@/Utils/Assets/Projects/ChatApp.jpg";
+import  Alumni from "@/Utils/Assets/Projects/Alumni.png";
+import Razorpay from "@/Utils/Assets/Projects/Razorpay.png"
+import Portfolio from "@/Utils/Assets/projects/Portfolio.png"
 const projectData = [
-    { 
-      id: 1, 
-      title: "Project 1", 
-      image: "https://cdn.pixabay.com/photo/2016/05/05/02/37/sunset-1373171_1280.jpg", 
-      techStack: ["React", "Node.js", "MongoDB" , "React", "Node.js", "MongoDB"], 
-      description: "My team and I developed a newspaper management dashboard application called Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms." ,
-      code: "https://github.com/Yashc885/Portfolio-"  
-    },
-    { 
-      id: 2, 
-      title: "Project 2", 
-      image: "https://cdn.pixabay.com/photo/2016/05/05/02/37/sunset-1373171_1280.jpg", 
-      techStack: ["Angular", "Express", "MySQL", "Express", "MySQL", "Express", "MySQL"], 
-      description: "Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms." ,
-      code: "https://github.com/Yashc885/Portfolio-"  
-    },
-    { 
-      id: 3, 
-      title: "Project 3", 
-      image: "https://cdn.pixabay.com/photo/2016/05/05/02/37/sunset-1373171_1280.jpg", 
-      techStack: ["Vue.js", "Express", "MySQL", "Django", "PostgreSQL"], 
-      description: "Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms. " ,
-      code: "https://github.com/Yashc885/Portfolio-"  
-    },
-    { 
-        id: 1, 
-        title: "Project 1", 
-        image: "https://cdn.pixabay.com/photo/2016/05/05/02/37/sunset-1373171_1280.jpg", 
-        techStack: ["React", "Node.js", "MongoDB" , "React", "Node.js", "MongoDB"], 
-        description: "My team and I developed a newspaper management dashboard application called Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms." ,
-        code: "https://github.com/Yashc885/Portfolio-"  
-      },
-      { 
-        id: 2, 
-        title: "Project 2", 
-        image: "https://cdn.pixabay.com/photo/2016/05/05/02/37/sunset-1373171_1280.jpg", 
-        techStack: ["Angular", "Express", "MySQL", "Express", "MySQL", "Express", "MySQL"], 
-        description: "Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms." ,
-        code: "https://github.com/Yashc885/Portfolio-"  
-      },
-      { 
-        id: 3, 
-        title: "Project 3", 
-        image: "https://cdn.pixabay.com/photo/2016/05/05/02/37/sunset-1373171_1280.jpg", 
-        techStack: ["Vue.js", "Express", "MySQL", "Django", "PostgreSQL"], 
-        description: "Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms. " ,
-        code: "https://github.com/Yashc885/Portfolio-"  
-      },
-      { 
-        id: 1, 
-        title: "Project 1", 
-        image: "https://cdn.pixabay.com/photo/2016/05/05/02/37/sunset-1373171_1280.jpg", 
-        techStack: ["React", "Node.js", "MongoDB" , "React", "Node.js", "MongoDB"], 
-        description: "My team and I developed a newspaper management dashboard application called Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms." ,
-        code: "https://github.com/Yashc885/Portfolio-"  
-      },
-      { 
-        id: 2, 
-        title: "Project 2", 
-        image: "https://cdn.pixabay.com/photo/2016/05/05/02/37/sunset-1373171_1280.jpg", 
-        techStack: ["Angular", "Express", "MySQL", "Express", "MySQL", "Express", "MySQL"], 
-        description: "Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms." ,
-        code: "https://github.com/Yashc885/Portfolio-"  
-      },
-      { 
-        id: 3, 
-        title: "Project 3", 
-        image: "https://cdn.pixabay.com/photo/2016/05/05/02/37/sunset-1373171_1280.jpg", 
-        techStack: ["Vue.js", "Express", "MySQL", "Django", "PostgreSQL"], 
-        description: "Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms. " ,
-        code: "https://github.com/Yashc885/Portfolio-"  
-      },
+  { 
+    id: 1, 
+    title: "MSIT Alumni Website", 
+    image: Alumni , 
+    techStack: ["Tailwind CSS" ,"Javascript", "React", "Node.js", "MongoDB" , "Express.js", "AWS", "Cloudinary"], 
+    description: "My team and I developed a full-fledged dynamic website to enhance the interconnection among students and alumni of the college. As a front-end developer, I worked on creating the dashboard and the complete UI of the website with a responsive design for all screen sizes using ReactJS, Redux, and other necessary npm libraries. We used React Redux to manage the application's state, React Hook Form for handling forms, and Sun Editor for rich text editing. Additionally, we integrated Cloudinary to store images, reducing the complexity of the website." ,
+    code: "https://github.com/Yashc885/Portfolio-"  
+  },
+  { 
+    id: 2, 
+    title: "Real-Time ChatApp", 
+    image: ChatApp , 
+    techStack: ["Tailwind CSS" ,"Javascript", "React", "Node.js", "MongoDB" , "Express.js"], 
+    description: "Developed a real-time chat application using the MERN stack with integrated database storage for messages, robust authentication, and session management via cookies. The application leverages Socket.IO to facilitate real-time communication across different servers. It also features lazy loading, optimized performance, and seamless user experience without page reloads. Additionally, the app includes online status indicators and unique random profile pictures for all users." ,
+    code: "https://github.com/Yashc885/ChatApp"  
+  },
+  { 
+    id: 3, 
+    title: "NASA-APOD ", 
+    image: Nasa , 
+    techStack: ["Django", "Python", "MySQL", "Rest FrameWorks"], 
+    description: " Developed a dynamic application using a Python framework that changes the PC's background image by fetching it from the NASA APOD API. The application features a user interface created with Tkinter, allowing users to select the date with proper error handling to ensure no image pixelation. This unique application also incorporates an SQL database and a REST framework, providing a fast, no-reload experience." ,
+    code: "https://github.com/Yashc885/Nasa-APOD"  
+  },
+  { 
+    id: 4, 
+    title: "Razorpay ", 
+    image: Razorpay , 
+    techStack: ["Tailwind/CSS" , "ReactJS" , "Nodejs" , "expressJS" , "MongoDB"], 
+    description: " The Razorpay Payment Gateway Integration Page seamlessly integrates Razorpay's secure payment gateway into websites, offering customizable design, real-time updates, and multiple payment options. With API key acquisition, customization, and KYC verification, businesses can transition to live mode confidently, enhancing customer satisfaction and facilitating secure transactions." ,
+    code: "https://github.com/Yashc885/razorpay-"  
+  },
+  { 
+    id: 5, 
+    title: "Portfolio", 
+    image: Portfolio , 
+    techStack: ["Tailwind/CSS" , "ReactJS" , "Nodejs" , "expressJS" , "MongoDB"], 
+    description: " The Razorpay Payment Gateway Integration Page seamlessly integrates Razorpay's secure payment gateway into websites, offering customizable design, real-time updates, and multiple payment options. With API key acquisition, customization, and KYC verification, businesses can transition to live mode confidently, enhancing customer satisfaction and facilitating secure transactions." ,
+    code: "https://github.com/Yashc885/razorpay-"  
+  },
    
   ];
   

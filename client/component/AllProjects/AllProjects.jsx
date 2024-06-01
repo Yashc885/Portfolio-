@@ -47,7 +47,7 @@ const AllProjects = () => {
                 />
                 <div className="p-2 sm:p-4">
                   <div className="text-center mb-2">
-                    <h2 className="text-lg lg:text-xl text-[#16f2b3] font-bold">{project.title}</h2>
+                    <h2 className="text-xl lg:text-2xl text-[#16f2b3] font-bold">{project.title}</h2>
                   </div>
                   <div className="mb-2">
                     <h2 className="text-md lg:text-lg text-white font-semibold">Tech Stack:</h2>

@@ -1,4 +1,6 @@
 import React from 'react';
+import Image from 'next/image';
+
 const truncateText = (text, maxLength) => {
     if (text.length <= maxLength) {
       return text;
@@ -11,9 +13,11 @@ const ExperienceCard = ({ name, image ,role, joinedDate, description }) => {
   return (
     <div className=" sm:mx-auto md:mx-auto lg:mx-auto xl:mx-auto mt-16 bg-white shadow-xl border-2 border-black  rounded-lg text-gray-900">
       <div className="mx-auto w-40 h-40 relative -mt-20 border-4 border-white rounded-full overflow-hidden">
-        <img className="object-cover object-center h-40 w-40 rounded-full"
+        <Image className="object-cover object-center h-40 w-40 rounded-full"
          src={image}
           alt={name}
+          width={100}
+          height={100}
            />
       </div>
       <div className="text-center mt-2">
