@@ -1,5 +1,6 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -11,10 +12,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}
-      <script src="https://cdn.tailwindcss.com"></script>
+      <body className={inter.className}>
+        {children}
+        <Script
+          src="https://cdn.tailwindcss.com"
+          strategy="afterInteractive"  // This will load the script asynchronously after the page is interactive
+        />
       </body>
-      
     </html>
   );
 }

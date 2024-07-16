@@ -1,4 +1,5 @@
 "use client";
+
 import Home from "@/component/Home/Home";
 import Navbar from "@/component/Home/Navbar";
 import About from "@/component/About/About";
@@ -14,7 +15,7 @@ import PreLoader from "@/component/PreLoader/PreLoader";
 import React, { useState, useEffect } from 'react';
 import Index from '@/component/PreLoader/Index'; 
 
-export default function page() {
+export default function Page() {  // Rename to Page
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -33,23 +34,20 @@ export default function page() {
         <Index />
       ) : (
         <div>
-        <div className="">
-      <Navbar />
-      <Home />
-      <About id="about" />
-      <Projects id="projects"/>
-      <Skills id="skills" />
-      <Education id="educations" />
-      <Experience id="experience" />
-      <Blogs id="blogs" />
-      <Contact id="contact" />
-      <Footer />
-    </div>
+          <div className="">
+            <Navbar />
+            <Home />
+            <About id="about" />
+            <Projects id="projects"/>
+            <Skills id="skills" />
+            <Education id="educations" />
+            <Experience id="experience" />
+            <Blogs id="blogs" />
+            <Contact id="contact" />
+            <Footer />
+          </div>
         </div>
       )}
     </>
   );
 }
-
-
-
