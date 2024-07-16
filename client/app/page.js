@@ -10,25 +10,7 @@ import Contact from "@/component/Contact/Contact";
 import Footer from "@/component/Footer/Footer";
 import Experience from "@/component/Experience/Experience";
 import PreLoader from "@/component/PreLoader/PreLoader";
-// export default function page() {
-//   return (
-//     <div className="">
-//     <PreLoader />
-//       <Navbar />
-//       <Home />
-//       <About id="about" />
-//       <Projects id="projects"/>
-//       <Skills id="skills" />
-//       <Education id="educations" />
-//       <Experience id="experience" />
-//       <Blogs id="blogs" />
-//       <Contact id="contact" />
-//       <Footer />
-//     </div>
-//   );
-// }
 
-// // Layout.js
 import React, { useState, useEffect } from 'react';
 import Index from '@/component/PreLoader/Index'; 
 
