@@ -1,3 +1,4 @@
+
 const nextConfig = {
   images: {
     // Define remotePatterns instead of domains
