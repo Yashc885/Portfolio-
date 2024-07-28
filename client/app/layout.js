@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
         {children}
         <Script
           src="https://cdn.tailwindcss.com"
-          strategy="afterInteractive"  // This will load the script asynchronously after the page is interactive
+          strategy="afterInteractive"  
         />
       </body>
     </html>

@@ -1,8 +1,8 @@
-import  Nasa  from "@/Utils/Assets/Projects/Nasa.jpeg";
-import  ChatApp  from "@/Utils/Assets/Projects/ChatApp.jpg";
-import  Alumni from "@/Utils/Assets/Projects/Alumni.png";
-import Razorpay from "@/Utils/Assets/Projects/Razorpay.png"
-import Portfolio from "@/Utils/Assets/projects/Portfolio.png"
+import  Nasa  from "../../Utils/Assets/Projects/Nasa.jpeg";
+import  ChatApp  from "../../Utils/Assets/Projects/ChatApp.jpg";
+import  Alumni from "../../Utils/Assets/Projects/Alumni.png";
+import Razorpay from "../../Utils/Assets/Projects/Razorpay.png";
+import Portfolio from "../../Utils/Assets/Projects/Razorpay.png";
 const projectData = [
   { 
     id: 1, 
