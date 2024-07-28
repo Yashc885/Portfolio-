@@ -1,9 +1,9 @@
 "use client";
 import React, { useState, useEffect } from 'react';
 import Link from "next/link";
-import { personal } from "@/utils/Data/personal";
+import { personal } from "./../../Utils/Data/Personal.js";
 import Image from "next/image";
-import Profile from "@/Utils/Assets/Profile.png";
+import Profile from "./../../Utils/Assets/Profile.png";
 
 function AboutSection() {
   return (
