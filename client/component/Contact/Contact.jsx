@@ -9,11 +9,20 @@ import { CiLocationOn } from "react-icons/ci";
 import { FaFacebook, FaStackOverflow } from 'react-icons/fa';
 import { FaXTwitter } from "react-icons/fa6";
 import SideComponent from "./SideComponent";
+import Section from "../../Utils/Assets/section.svg";
+import Image from "next/image";
 
 function Contact() {
   return (
-    <div id="contact" className="my-12 pl-10 pr-10 lg:my-16 relative mt-24 text-white">
-    
+    <div div id="contact" className="relative z-50 pl-10 pr-10 border-t my-12 lg:my-24 border-[#25213b]">
+        <Image
+        src={Section}
+        alt="Hero"
+        width={1572}
+        height={795}
+        className="absolute top-0 -z-10"
+      />
+    <div  className="  mt-24 text-white">
       <div className="hidden lg:flex flex-col items-center absolute top-24 -right-8">
         <span className="bg-[#1a1443] w-fit text-white rotate-90 p-2 px-5 text-xl rounded-md">
           CONTACT
@@ -72,6 +81,7 @@ function Contact() {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };

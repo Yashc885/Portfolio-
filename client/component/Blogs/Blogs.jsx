@@ -13,7 +13,7 @@ const truncateText = (text, maxLength) => {
 
 const Blogs = () => {
   return (
-    <div id="blogs" className="relative z-50 px-10 border-t my-12 lg:my-24 border-[#25213b]">
+    <div id="blogs" className="relative z-50 px-10 border-t  border-[#25213b]">
       <div className="flex justify-center -translate-y-[1px]">
         <div className="w-3/4">
           <div className="h-[1px] bg-gradient-to-r from-transparent via-violet-500 to-transparent w-full" />

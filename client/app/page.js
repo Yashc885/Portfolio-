@@ -41,7 +41,7 @@ export default function Page() {  // Rename to Page
             <Skills id="skills" />
             <Education id="educations" />
             <Experience id="experience" />
-            <Blogs id="blogs" />
+            {/* <Blogs id="blogs" /> */}
             <Contact id="contact" />
             <Footer />
           </div>
