@@ -1,8 +1,8 @@
 import React from 'react';
-import ExperienceCard from "@/component/Experience/ExperienceCard";
+import ExperienceCard from "./ExperienceCard";
 import Image from "next/image";
-import Section from "@/Utils/Assets/section.svg";
-import experienceData from "@/component/Experience/Content";
+import Section from "../../Utils/Assets/section.svg";
+import experienceData from "./Content.js";
 
 const Experience = () => {
   return (

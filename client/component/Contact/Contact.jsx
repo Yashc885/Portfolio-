@@ -1,14 +1,14 @@
 "use client";
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { personal } from "@/utils/Data/personal";
+import { personal } from "../../Utils/Data/Personal.js";
 import { IoLogoGithub, IoMdCall } from "react-icons/io";
 import { MdAlternateEmail } from "react-icons/md";
 import { BiLogoLinkedin } from "react-icons/bi";
 import { CiLocationOn } from "react-icons/ci";
 import { FaFacebook, FaStackOverflow } from 'react-icons/fa';
 import { FaXTwitter } from "react-icons/fa6";
-import SideComponent from "@/component/Contact/SideComponent";
+import SideComponent from "./SideComponent";
 
 function Contact() {
   return (

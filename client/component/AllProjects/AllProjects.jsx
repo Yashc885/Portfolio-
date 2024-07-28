@@ -1,7 +1,8 @@
+'use client'
 import React from 'react';
 import Image from 'next/image';
-import Section from '@/Utils/Assets/section.svg';
-import projectData from '@/component/AllProjects/Content';
+import Section from '../../Utils/Assets/section.svg';
+import projectData from './Content.js';
 import { GoArrowRight } from "react-icons/go";
 
 

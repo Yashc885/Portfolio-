@@ -1,13 +1,13 @@
 "use client";
 import React, { useState, useEffect } from 'react';
 import Image from "next/image";
-import { educations } from "@/utils/Data/Education";
+import { educations } from "../../Utils/Data/Education.js";
 import { BsPersonWorkspace } from "react-icons/bs";
-import GlowCard from "@/component/GlowCard";
-import Section from "@/Utils/Assets/section.svg"
-import Blur from "@/Utils/Assets/blur.svg"
-import lottieFile from '/public/lottie/study.json';
- import Animation from "@/component/Animation"
+import GlowCard from "../GlowCard";
+import Section from "../../Utils/Assets/section.svg"
+import Blur from "../../Utils/Assets/blur.svg"
+import lottieFile from '../../public/lottie/study.json';
+ import Animation from "./../Animation.jsx"
 function Education() {
   return (
     <div id="education" className="relative z-50 pl-10 pr-10 border-t my-12 lg:my-24 border-[#25213b]">

@@ -1,8 +1,8 @@
 import React from 'react';
 import Image from "next/image";
-import Section from "@/Utils/Assets/section.svg";
-import Blur from "@/Utils/Assets/blur.svg";
-import blogsData from "@/component/Blogs/Content";
+import Section from "../../Utils/Assets/section.svg";
+import Blur from "../../Utils/Assets/blur.svg";
+import blogsData from "./Content.js";
 import Marquee from "react-fast-marquee";
 const truncateText = (text, maxLength) => {
   if (text.length <= maxLength) {

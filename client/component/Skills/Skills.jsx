@@ -1,9 +1,9 @@
 import React from 'react';
-import { skillsData } from "@/utils/Data/Skills";
-import { skillsImage } from "@/utils/Data/Simages";
+import { skillsData } from "../../Utils/Data/Skills.js";
+import { skillsImage } from "../../Utils/Data/Simages.js";
 import Image from "next/image";
 import Marquee from "react-fast-marquee";
-import Main from "@/Utils/Assets/card.png";
+import Main from "../../Utils/Assets/card.png";
 function Skills() {
   return (
     <div id="skills" className="pl-10 pr-10 relative z-50 border-t my-12 lg:my-24 border-[#25213b]">

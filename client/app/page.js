@@ -1,19 +1,18 @@
 "use client";
 
-import Home from "@/component/Home/Home";
-import Navbar from "@/component/Home/Navbar";
-import About from "@/component/About/About";
-import Projects from "@/component/Projects/Projects";
-import Skills from "@/component/Skills/Skills";
-import Education from "@/component/Education/Education";
-import Blogs from "@/component/Blogs/Blogs";
-import Contact from "@/component/Contact/Contact";
-import Footer from "@/component/Footer/Footer";
-import Experience from "@/component/Experience/Experience";
-import PreLoader from "@/component/PreLoader/PreLoader";
-
+import Home from "./../component/Home/Home.jsx";
+import Navbar from "./../component/Home/Navbar.jsx";
+import About from "../component/About/About.jsx";
+import Projects from "../component/Projects/Projects.jsx";
+import Skills from "../component/Skills/Skills.jsx";
+import Education from "../component/Education/Education.jsx";
+import Blogs from "../component/Blogs/Blogs.jsx";
+import Contact from "../component/Contact/Contact.jsx";
+import Footer from "../component/Footer/Footer.jsx";
+import Experience from "../component/Experience/Experience.jsx";
+import PreLoader from "../component/PreLoader/PreLoader.jsx";
 import React, { useState, useEffect } from 'react';
-import Index from '@/component/PreLoader/Index'; 
+import Index from '../component/PreLoader/Index'; 
 
 export default function Page() {  // Rename to Page
   const [loading, setLoading] = useState(true);

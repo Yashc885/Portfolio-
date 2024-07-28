@@ -1,6 +1,6 @@
 "use client";
 import React, { useState, useEffect } from 'react';
-import { personal } from "@/utils/Data/personal";
+import { personal } from "../../Utils/Data/Personal.js";
 import Image from "next/image";
 import Link from "next/link";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
@@ -8,7 +8,7 @@ import { FaFacebook, FaTwitterSquare } from "react-icons/fa";
 import { MdDownload } from "react-icons/md";
 import { RiContactsFill } from "react-icons/ri";
 import { SiLeetcode } from "react-icons/si";
-import Main from "@/Utils/Assets/card.png";
+import Main from "../../Utils/Assets/card.png";
 
 function Home() {
   return (

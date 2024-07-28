@@ -1,7 +1,7 @@
 // Layout.js
 import React, { useState, useEffect } from 'react';
-import Index from '@/component/PreLoader/Index'; 
-import Section from "@/Utils/Assets/section.svg"
+import Index from './Index.js'; 
+import Section from "../../Utils/Assets/section.svg"
 
 const PreLoader = () => {
   const [loading, setLoading] = useState(true);
