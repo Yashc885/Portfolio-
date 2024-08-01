@@ -1,8 +1,3 @@
-import ayla from './ayla.jpg';
-import crefin from './crefin.jpg';
-import realEstate from './real-estate.jpg';
-import travel from './travel.jpg';
-
 export const projectsData = [
     {
         id: 1,
@@ -12,7 +7,6 @@ export const projectsData = [
         role: 'Software Engineer',
         code: '',
         demo: '',
-        image: crefin,
     },
     {
         id: 2,
@@ -22,7 +16,6 @@ export const projectsData = [
         role: 'Frontend-Developer',
         code: '',
         demo: '',
-        image: travel,
     },
     {
         id: 3,
@@ -32,7 +25,6 @@ export const projectsData = [
         code: '',
         role: 'Full Stack Developer',
         demo: '',
-        image: realEstate,
     },
     {
         id: 4,
@@ -41,7 +33,6 @@ export const projectsData = [
         tools: ['React' , 'Javascript' , 'Tailwind/CSS','Express', 'MongoDB', 'Figma' ,'Node', 'cloudinary' , 'REST API' , 'AWS S3', 'Node Mailer', 'Joi', 'EC2', 'PM2', 'Nginx'],
         code: '',
         demo: '',
-        image: ayla,
         role: 'Full Stack Developer',
     }
 ];

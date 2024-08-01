@@ -10,7 +10,7 @@ const PreLoader = () => {
     // Simulate a delay for demonstration purposes
     const timeout = setTimeout(() => {
       setLoading(false);
-    }, 2000);
+    }, 1000);
 
     // Clear timeout on component unmount
     return () => clearTimeout(timeout);
