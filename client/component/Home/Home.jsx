@@ -157,13 +157,13 @@ function Home() {
                 <span className="text-amber-300">AWS</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">NodeJS</span>
-                <span className="text-gray-400">{"'],"}</span>
+                <span className="text-gray-400">{"',"}</span>
                 <span className="text-amber-300">SQL</span>
-                <span className="text-gray-400">{"'],"}</span>
+                <span className="text-gray-400">{"',"}</span>
                 <span className="text-amber-300">C/C++</span>
-                <span className="text-gray-400">{"'],"}</span>
+                <span className="text-gray-400">{"',"}</span>
                 <span className="text-amber-300">Python</span>
-                <span className="text-gray-400">{"'],"}</span>
+                <span className="text-gray-400">{"',"}</span>
                 <span className="text-amber-300">DBMS</span>
                 <span className="text-gray-400">{"'],"}</span>
               </div>
