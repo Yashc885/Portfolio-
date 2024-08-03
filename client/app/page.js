@@ -1,5 +1,4 @@
 "use client";
-
 import Home from "./../component/Home/Home.jsx";
 import Navbar from "./../component/Home/Navbar.jsx";
 import About from "../component/About/About.jsx";
@@ -16,12 +15,9 @@ export default function Page() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // Simulate loading delay (remove if not needed)
     const timeout = setTimeout(() => {
       setLoading(false);
-    }, 1000); // Adjust the timeout as needed
-
-    // Clean up on component unmount
+    }, 1000); 
     return () => clearTimeout(timeout);
   }, []);
 
@@ -38,7 +34,6 @@ export default function Page() {
           <Skills id="skills" />
           <Education id="educations" />
           <Experience id="experience" />
-          {/* <Blogs id="blogs" /> */}
           <Contact id="contact" />
           <Footer />
         </div>
